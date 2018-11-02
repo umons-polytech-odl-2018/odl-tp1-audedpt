@@ -56,6 +56,7 @@ public class Exercise1Test {
 
 	@Test
 	public void runningExercice1PrintsNameAndAge() {
+
 		Random rnd = new Random();
 		PrintStream originalOut = System.out;
 		try {
